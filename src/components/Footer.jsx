@@ -5,7 +5,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[50vh] bg-indigo-600 flex flex-col  gap-y-3 justify-center items-center">
+    <div className="w-full h-[50vh] bg-indigo-600 flex flex-col  gap-y-3 justify-center items-center" id="contact">
       <div className="pb-2">
         <h2 className="text-white text-6xl pb-2">Let's Talk!</h2>
       </div>
