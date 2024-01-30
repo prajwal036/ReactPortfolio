@@ -5,10 +5,10 @@ import { MdClose } from "react-icons/md";
 
 const Navbar = () => {
   let Links = [
-    { name: "HOME", link: "/" },
+    { name: "HOME", link: "https://prajwal036.github.io/ReactPortfolio/" },
     { name: "ABOUT", link: "#about" },
     { name: "PROJECTS", link: "#portfolio" },
-    { name: "CONTACT", link: "/" },
+    { name: "CONTACT", link: "#contact" },
   ];
   let [open, setOpen] = useState(false);
   return (
